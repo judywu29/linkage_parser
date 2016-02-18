@@ -1,0 +1,74 @@
+                                             Cadastral Records Enquiry Report              Ref : GlobalX Information Pty Ltd
+                                     Requested Parcel : Lot 42 DP 1096879     Identified Parcel : Lot 42 DP 1096879
+Locality : WOODFORD ISLAND LGA : CLARENCE VALLEY      Parish : WOODFORD                     County : CLARENCE
+                           Status                Surv/Comp                           Purpose
+
+DP568779
+Lot(s): 2
+            DP1167490                REGISTERED                 SURVEY               RESUMPTION OR ACQUISITION
+DP592644
+Lot(s): 1
+            DP1167490                REGISTERED                 SURVEY               RESUMPTION OR ACQUISITION
+DP701190
+Lot(s): 1182
+            DP1154461                REGISTERED                 SURVEY               SUBDIVISION
+DP814134
+Lot(s): 11
+            DP1167490                REGISTERED                 SURVEY               RESUMPTION OR ACQUISITION
+DP863427
+Lot(s): 11
+            DP1004944                REGISTERED                 SURVEY               SUBDIVISION
+            DP1047185                REGISTERED                 SURVEY               SUBDIVISION
+DP873840
+Lot(s): 41
+            DP1056287                REGISTERED                 COMPILATION          EASEMENT
+DP884319
+Lot(s): 21
+            DP418693                 HISTORICAL                 SURVEY               UNRESEARCHED
+            DP840115                 HISTORICAL                 SURVEY               SUBDIVISION
+DP1004944
+Lot(s): 1, 2, 3
+            DP863427                 HISTORICAL                 SURVEY               SUBDIVISION
+DP1014491
+Lot(s): 21, 22
+            DP508851                 HISTORICAL                 SURVEY               SUBDIVISION
+DP1015464
+Lot(s): 1, 2, 3, 4, 5, 6
+            DP868431                 HISTORICAL                 SURVEY               SUBDIVISION
+DP1031456
+Lot(s): 10
+            DP551785                 HISTORICAL                 SURVEY               SUBDIVISION
+            DP577470                 HISTORICAL                 SURVEY               SUBDIVISION
+            DP1015037                REGISTERED                 SURVEY               SUBDIVISION
+DP1035020
+Lot(s): 10
+            DP1047185                REGISTERED                 SURVEY               SUBDIVISION
+Lot(s): 8, 9, 10
+            DP863427                 HISTORICAL                 SURVEY               SUBDIVISION
+            DP1004944                REGISTERED                 SURVEY               SUBDIVISION
+DP1045370
+Lot(s): 13, 14
+            DP862896                 HISTORICAL                 SURVEY               SUBDIVISION
+DP1047039
+Lot(s): 271
+            DP177967                 HISTORICAL                 SURVEY               UNRESEARCHED
+DP1047185
+Lot(s): 105
+            DP863427                 HISTORICAL                 SURVEY               SUBDIVISION
+            DP1004944                REGISTERED                 SURVEY               SUBDIVISION
+            DP1035020                REGISTERED                 SURVEY               SUBDIVISION
+DP1056728
+Lot(s): 12, 13, 14, 15, 16, 20
+            DP1035020                REGISTERED                 SURVEY               SUBDIVISION
+            DP1047185                REGISTERED                 SURVEY               SUBDIVISION
+Lot(s): 12, 13, 14, 15, 16, 17, 20
+            DP863427                 HISTORICAL                 SURVEY               SUBDIVISION
+            DP1004944                REGISTERED                 SURVEY               SUBDIVISION
+
+
+
+
+Caution:       For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 9:56:06 AM, 25 September, 2015                                                                  Page 2 of 5
+Copyright © Land and Property Information ABN: 84 104 377 806
+

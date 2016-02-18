@@ -1,0 +1,26 @@
+                                             Cadastral Records Enquiry Report          Ref : GlobalX Information Pty Ltd
+                                   Requested Parcel : Lot 42 DP 1096879   Identified Parcel : Lot 42 DP 1096879
+Locality : WOODFORD ISLAND LGA : CLARENCE VALLEY      Parish : WOODFORD                 County : CLARENCE
+                           Status                Surv/Comp                       Purpose
+
+
+Water Feature
+Polygon Id(s): 106757380
+           DP1158314             REGISTERED            COMPILATION           EASEMENT
+           DP1167490             REGISTERED            SURVEY                RESUMPTION OR ACQUISITION
+               NSW GAZ.                     22-02-2013                   Folio : 482
+           ACQUIRED FOR THE PURPOSES OF THE ELECTRICITY SUPPLY ACT, 1995
+           EASEMENT FOR OVERHEAD POWERLINES 30 WIDE DESIGNATED (2) SHOWN ON DP1158314
+Polygon Id(s): 108018133
+           DP1167059             REGISTERED            SURVEY                EASEMENT
+               NSW GAZ.                     22-02-2013                   Folio : 482
+           ACQUIRED FOR THE PURPOSES OF THE ELECTRICITY SUPPLY ACT, 1995
+           EASEMENT FOR MULTI-PURPOSE ELECTRICAL INSTALLATION 13 WIDE DESIGNATED (B) SHOWN ON DP1171123
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 9:56:06 AM, 25 September, 2015                                                              Page 4 of 5
+Copyright © Land and Property Information ABN: 84 104 377 806
+

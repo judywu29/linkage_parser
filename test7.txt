@@ -1,0 +1,71 @@
+                                             Cadastral Records Enquiry Report          Ref : GlobalX Information Pty Ltd
+                                   Requested Parcel : Lot 42 DP 1096879   Identified Parcel : Lot 42 DP 1096879
+Locality : WOODFORD ISLAND LGA : CLARENCE VALLEY      Parish : WOODFORD                 County : CLARENCE
+                           Status                Surv/Comp                       Purpose
+
+DP1064708
+Lot(s): 1
+            DP501796            HISTORICAL            SURVEY                 SUBDIVISION
+            DP751392            HISTORICAL            COMPILATION            CROWN ADMIN NO.
+DP1088261
+Lot(s): 90, 91, 92
+            DP259883            HISTORICAL            SURVEY                 SUBDIVISION
+DP1092861
+Lot(s): 141, 142, 143, 144, 145
+            DP873840            HISTORICAL            SURVEY                 SUBDIVISION
+DP1096879
+Lot(s): 42
+            DP817664            HISTORICAL            SURVEY                 SUBDIVISION
+Lot(s): 41, 42
+            DP582523            HISTORICAL            SURVEY                 SUBDIVISION
+DP1114207
+Lot(s): 7019
+               NSW GAZ.                    19-12-2003                    Folio : 11580
+            EASEMENT FOR POWER SUPPLY LINE 1 WIDE SHOWN IN DP267968 ACQUIRED UNDER THE ELECTRICITY SUPPLY
+            ACT, 1995
+DP1118828
+Lot(s): 41, 42
+            DP259883            HISTORICAL            SURVEY                 SUBDIVISION
+DP1121083
+Lot(s): 81, 82
+            DP259883            HISTORICAL            SURVEY                 SUBDIVISION
+            DP1088261           REGISTERED            SURVEY                 SUBDIVISION
+DP1140328
+Lot(s): 2
+               NSW GAZ.                    17-07-2009                    Folio : 4093
+            CLOSED ROAD
+            LOTS 1-3 DP1140328
+DP1154461
+Lot(s): 21
+            DP951001            HISTORICAL            SURVEY                 UNRESEARCHED
+Lot(s): 20, 21
+            DP804517            HISTORICAL            SURVEY                 SUBDIVISION
+DP1167947
+Lot(s): 21
+            DP177967            HISTORICAL            SURVEY                 UNRESEARCHED
+            DP751377            HISTORICAL            COMPILATION            CROWN ADMIN NO.
+            DP1047039           REGISTERED            SURVEY                 SUBDIVISION
+DP1181678
+Lot(s): 18
+            DP418693            HISTORICAL            SURVEY                 UNRESEARCHED
+            DP840115            HISTORICAL            SURVEY                 SUBDIVISION
+            DP846391            HISTORICAL            COMPILATION            ROADS ACT, 1993
+            DP884319            REGISTERED            SURVEY                 SUBDIVISION
+DP1185417
+Lot(s): 221
+            DP177967            HISTORICAL            SURVEY                 UNRESEARCHED
+            DP551785            HISTORICAL            SURVEY                 SUBDIVISION
+            DP577470            HISTORICAL            SURVEY                 SUBDIVISION
+            DP1015037           REGISTERED            SURVEY                 SUBDIVISION
+            DP1031456           REGISTERED            SURVEY                 SUBDIVISION
+            DP1047039           REGISTERED            SURVEY                 SUBDIVISION
+            DP1115479           REGISTERED            SURVEY                 SUBDIVISION
+            DP1167947           REGISTERED            SURVEY                 SUBDIVISION
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 9:56:06 AM, 25 September, 2015                                                              Page 3 of 5
+Copyright © Land and Property Information ABN: 84 104 377 806
+

@@ -1,0 +1,59 @@
+                                             Cadastral Records Enquiry Report          Ref : GlobalX Information Pty Ltd
+                                   Requested Parcel : Lot 42 DP 1096879   Identified Parcel : Lot 42 DP 1096879
+Locality : WOODFORD ISLAND LGA : CLARENCE VALLEY      Parish : WOODFORD                 County : CLARENCE
+                           Status                Surv/Comp                       Purpose
+
+DP1199636
+Lot(s): 130
+           DP177967              HISTORICAL            SURVEY                UNRESEARCHED
+           DP1047039             REGISTERED            SURVEY                SUBDIVISION
+           DP1115944             HISTORICAL            COMPILATION           DEPARTMENTAL
+           DP1167947             REGISTERED            SURVEY                SUBDIVISION
+           DP1185417             REGISTERED            COMPILATION           SUBDIVISION
+Lot(s): 130, 131, 132
+           DP551785              HISTORICAL            SURVEY                SUBDIVISION
+           DP577470              HISTORICAL            SURVEY                SUBDIVISION
+           DP1015037             REGISTERED            SURVEY                SUBDIVISION
+           DP1031456             REGISTERED            SURVEY                SUBDIVISION
+           DP1115479             REGISTERED            SURVEY                SUBDIVISION
+Lot(s): 132
+           DP552875              HISTORICAL            SURVEY                SUBDIVISION
+Road
+Polygon Id(s): 171799813
+               NSW GAZ.                     22-02-2013                   Folio : 482
+           ACQUIRED FOR THE PURPOSES OF THE ELECTRICITY SUPPLY ACT, 1995
+           EASEMENT FOR MULTI-PURPOSE ELECTRICAL INSTALLATION 13 WIDE DESIGNATED (B) SHOWN ON DP1171123
+               NSW GAZ.                     05-03-1999                   Folio : 1832
+           RESERVED AS PART OF MUNRO ISLAND NATURE RESERVE AFFECTING THE AREA KNOWN AS MUNRO ISLAND ON
+           THE CLARENCE RIVER DOWN TO MEAN LOW WATER MARK
+Polygon Id(s): 171799814
+               NSW GAZ.                     26-06-2015                   Folio : 1899
+           CLOSED ROAD
+           LOT 1 DP1203120
+Polygon Id(s): 171799813, 171799814
+           DP1203120             REGISTERED            SURVEY                ROADS ACT, 1993
+Unidentified
+Polygon Id(s): 103704152
+           FEE IS CROWN LAND
+Polygon Id(s): 104360483
+           DP1056287             REGISTERED            COMPILATION           EASEMENT
+Water Feature
+Polygon Id(s): 106757380
+           DP1158314             REGISTERED            COMPILATION           EASEMENT
+           DP1167490             REGISTERED            SURVEY                RESUMPTION OR ACQUISITION
+               NSW GAZ.                     22-02-2013                   Folio : 482
+           ACQUIRED FOR THE PURPOSES OF THE ELECTRICITY SUPPLY ACT, 1995
+           EASEMENT FOR OVERHEAD POWERLINES 30 WIDE DESIGNATED (2) SHOWN ON DP1158314
+Polygon Id(s): 108018133
+           DP1167059             REGISTERED            SURVEY                EASEMENT
+               NSW GAZ.                     22-02-2013                   Folio : 482
+           ACQUIRED FOR THE PURPOSES OF THE ELECTRICITY SUPPLY ACT, 1995
+           EASEMENT FOR MULTI-PURPOSE ELECTRICAL INSTALLATION 13 WIDE DESIGNATED (B) SHOWN ON DP1171123
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 9:56:06 AM, 25 September, 2015                                                              Page 4 of 5
+Copyright © Land and Property Information ABN: 84 104 377 806
+

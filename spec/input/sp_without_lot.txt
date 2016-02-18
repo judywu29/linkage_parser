@@ -1,0 +1,55 @@
+                                             Cadastral Records Enquiry Report                          Ref : Woolworths Limited
+                                   Requested Parcel : Lot B2 DP 379890            Identified Parcel : Lot B2 DP 379890
+Locality : FIVE DOCK               LGA : CANADA BAY                  Parish : CONCORD           County : CUMBERLAND
+                                   Status                       Surv/Comp                Purpose
+
+DP6513
+Lot(s): 4, 5
+            DP1096960            REGISTERED                     SURVEY                   EASEMENT
+DP1000063
+Lot(s): 1
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+DP1011171
+Lot(s): 101, 102
+            DP114883             HISTORICAL                     COMPILATION              DEPARTMENTAL
+DP1062325
+Lot(s): 1, 4
+            DP656129             HISTORICAL                     COMPILATION              DEPARTMENTAL
+            DP811036             HISTORICAL                     COMPILATION              SUBDIVISION
+            DP826770             HISTORICAL                     COMPILATION              CONSOLIDATION
+            DP1061320            REGISTERED                     SURVEY                   EASEMENT
+            SP72939              REGISTERED                     COMPILATION              PART STRATA
+DP1062789
+Lot(s): 100
+            DP220545             HISTORICAL                     SURVEY                   SUBDIVISION
+DP1090805
+Lot(s): 10
+            CA97650 - LOT 10 DP1090805
+SP60531
+            DP324298             HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP337316             HISTORICAL                     COMPILATION              UNRESEARCHED
+            DP1003096            REGISTERED                     SURVEY                   CONSOLIDATION
+SP62213
+            DP6513               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1009546            REGISTERED                     SURVEY                   CONSOLIDATION
+SP65944
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP324298             HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1031133            REGISTERED                     SURVEY                   CONSOLIDATION
+SP73187
+            DP6513               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1071070            REGISTERED                     SURVEY                   REDEFINITION
+SP75573
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1087380            REGISTERED                     SURVEY                   CONSOLIDATION
+SP86439
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1000063            REGISTERED                     SURVEY                   SUBDIVISION
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 5:50:07 PM, 14 April, 2015                                                                          Page 2 of 4
+Copyright © Land and Property Information ABN: 84 104 377 806
+

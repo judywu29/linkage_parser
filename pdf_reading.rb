@@ -1,47 +1,54 @@
+
 class LinkageParser
-  attr_reader :file, :linkage_lines
+  attr_reader :file
   #data structures
-  # attr_reader :linkages #array of plans and lots ex. ['DP1044465' => [ {lot: '61', plan: 'DP758012 HISTORICAL                     COMPILATION           CROWN ADMIN NO.'}]
-  attr_reader :header_lines, :footer_lines
-  # attr_reader :current_plans
-  # attr_accessor :current_plans_and_lots
   attr_reader :parcels, :polygons, :linkages, :text_notations
-  #parcels: [{ plan_number: string, lot_ids: array, section_id: integer, linkages: [linkages_indexes], text_notations: [text_notations_indexes]}, {}, {}...]
 
-  #polygons: [{polygon_type: type, polygon_id: string, linkages: [linkages_indexes], text_notation: [text_notations_indexes]}, {}, {}]
-
-  #linkages: [{linked_plan_number: string, status: string, surv_comp: string, purpose: string, parcels: [parcels_indexes], polygons: [polygons_indexes]}, {}, {}..]
-  #text_notations: [{text: string, parcels: [parcels_indexes], polygons: [polygons_indexes]}, {}, {}...]
-
-
-
-
-  LINE_MODE = ["PLAN", "HEADER", "FOOTER", "LINKAGE", 'LOT']
+  POLYGON_TYPES = ['Road', 'Water','Unidentified', 'Intersection']
 
   def run
     lines = @file.readlines
-    parcel_blocks = lines.each_with_index.map{|line, index| index if is_parcel_header?(line.strip)}
-    polygons_blocks = lines.each_with_index.map{|line, index| index-1 if is_polygon_header?(line.strip)}
 
-    lines.each do |line|
-      sline = line.strip
-      is_parcel_header?(line)
-      if is_polygon_header?
-        @p
+    indexes = get_indexes_from_file(lines)
+    @is_polygon = false #it's used when add connection linkages/text_notations with parcel/polygon
 
+    #to handle multiple pages:
+    (0...indexes.size).step(2).each do |i|
+      start_index = indexes[i]
+      while start_index && (start_index < indexes[i+1])
+        line = lines[start_index].strip
+
+        case
+          when is_plan_number_line?(line)
+            @is_polygon = false
+            load_plan_number(line)
+          when is_lot_or_section_line?(line)
+            start_index = load_lots(line, lines, start_index)
+          when is_polygon_type_line?(line)
+            @is_polygon = true
+            load_polygon_type(line)
+          when is_polygon_id_line?(line)
+            start_index = load_polygon_ids(line, lines, start_index)
+          else
+            #linkage:
+            start_index = load_linkages(line, lines, start_index, @is_polygon)
+            #text notation
+            start_index = load_text_notations(line, lines, start_index, @is_polygon)
+        end
+        start_index += 1
+      end
     end
   end
 
+
   def initialize(filename)
     begin
-      @file = File.new(filename, 'r')
-      @header_lines = []
-      @footer_lines = []
+      @file = File.new(filename, 'rb')
 
-      @parcels = @polygons = @linkages = @text_notations = []
-      @current_parcel #lot_section_plan
-      @parcel_begin = false
-      @parcel_block = []
+      @parcels = []
+      @polygons = []
+      @linkages = []
+      @text_notations = []
 
     rescue => e
       puts "Could not load file - #{e.message}"
@@ -49,148 +56,240 @@ class LinkageParser
   end
 
   private
-    def is_parcel_header?(line)
-      line.split(' ').size == 1 && (sline.start_with?('DP') || sline.start_with?('SP'))
+
+  def get_indexes_from_file(lines)
+    #assumptions made here: the size of indexes have to be even and there should be header in each page, 'Caution'
+    # at the end of the first page and 'blah' at the pages except the first page if there are multiple pages
+    start_indexes = []
+    lines.each_with_index{|line, index| start_indexes << (index + 1) if line.include?("Surv/Comp") && line.include?("Purpose")}
+
+    caution_index = lines.index{|line| line.include?("Caution") }
+
+    indexes = start_indexes << caution_index
+    lines.each_with_index{|line, index| indexes << index if line.include?("blah") }
+
+
+    indexes.keep_if{ |i| i && i > 0 }.sort! #remove the nil value and only keep the positive values, sort the array 
+    # puts indexes
+
+    if start_indexes.empty? || caution_index == -1 || indexes.size % 2 != 0
+      puts "it's not a standard txt, please check the file - #{@file.inspect}"
     end
-
-    def is_polygon_header?(line)
-      line.include?("Polygon Id(s):")
-    end
-
-
-  def current_plan_line?(line)
-    sline = line.strip
-    sline.split(' ').size == 1
+    return indexes
   end
 
-  def lot_line?(line)
-    line.include?("Lot(s)") # get lots for current plan
+  def is_plan_number_line?(line)
+    line.split(' ').size == 1 && (line.start_with?('DP') || line.start_with?('SP'))
   end
 
-  # add the plan to the @current_plans_and_lots array
-  # return: mode
-  def get_current_plan(line, mode)
-    sline = line.strip
-    return mode if sline.empty?
-    if sline.split(' ').size == 1
-      @current_plan = {plan: sline, linkages: []} # define a new current plan  - with defaults
-      # add current plan on to the main data structure
-      @current_plans << sline
-      @current_plans_and_lots << @current_plan
-    end
-    mode = 'LOT'
-  end
-
-  # add linkage to current plan or description to plan
-  # return mode
-  def get_linkage_detail_line(line, mode)
-    sline = line.strip
-    return 'FOOTER' if sline.empty? # empty line after a linkage indicates next part should the footer
-    if line.split(' ').first.strip.start_with?('SP') || line.split(' ').first.strip.start_with?('DP') # is a linkage plan
-      linked_plan, status, surv_comp, *purpose = line.split(' ')
-      # return if linked_plan.nil? || status.nil? || surv_comp.nil? ||purpose.nil?
-      @current_plans_and_lots.last[:linkages].last[:plans] << {plan_number: linked_plan.strip, status: status.strip, surv_comp: surv_comp.strip, purpose: purpose.map(&:strip).join(' ')}
-    else
-      @current_plans_and_lots.last[:linkages].last[:info] << line.strip
-    end
-    mode = 'LINKAGE'
-  end
-
-  # Expecting the line to have linked plan and details or extra info
-  # Set plan linkage structure with defaults
-  # return mode = 'LINKAGE'
-  def get_lots_for_current_plan(line, mode)
-    sline = line.strip
-    return mode if sline.empty? # may be empty line after lots. This would indicate leading into footer
-    # {lots: [], plans: []} for current plan
-    if sline.include?("Lot(s)") # get lots for current plan
-      @current_plans_and_lots.last[:linkages] << {lots: sline.split("Lot(s):")[1].strip, polyeogons: [], plans: [], info: []}
-    end
-    if sline.include?("Polygon Id(s):") # get polygons for current Road plan
-      @current_plans_and_lots.last[:linkages] << {lots: [], polygons: sline.split("Polygon Id(s):")[1].split(",").map(&:strip), plans: [], info: []}
-    end
-    # might not have lots
-
-    return mode if sline.include?('all ACTIVITY PRIOR to SEPT 2002')
-    return mode if sline.include?('Report Generated')
-    return mode if sline.include?('Land and Property')
-    # if !sline.include?("Lot(s)") && !sline.include?("Polygon Id(s):") || !sline.strip.start_with?("NSW GAZ") #linkages_detail_line?(line) ||
-
-    if !sline.include?("Lot(s)") && !sline.include?("Polygon Id(s):") #linkages_detail_line?(line) || line.strip.start_with?("NSW GAZ")
-      @current_plans_and_lots.last[:linkages] << {lots: [], polygons: [], plans: [], info: []}
-      get_linkage_detail_line(line, mode)
-    end
-    mode = 'LINKAGE'
-  end
-
-  def linkages_detail_line?(line)
-    line.split(' ').first.strip.start_with?('SP') || line.split(' ').first.strip.start_with?('DP')
-  end
-
-  def is_header?(line)
-    line.include?("Status") && line.include?("Surv/Comp") && line.include?("Purpose")
-  end
-
-
-
-  def is_parcel_lot_or_section_number?(line)
+  def is_lot_or_section_line?(line)
     line.include?("Lot(s)") || line.include?("Section")
   end
 
-  def find_or_add_parcel_plan_number(plan_number)
-    @parcels.each do |parcel|
-      return if parcel[:plan_number] == plan_number
+  def is_polygon_id_line?(line)
+    line.include?("Polygon Id(s):")
+  end
+
+  def is_polygon_type_line?(line)
+    POLYGON_TYPES.each do |type|
+      return true if line.start_with?(type)
     end
+    return false
+  end
+
+  def is_linkages_detail_line?(line)
+    arr_line = line.split(' ')
+    arr_line.length > 1 && (arr_line[0].strip.start_with?('SP') || arr_line[0].strip.start_with?('DP'))
+  end
+
+  def is_empty_line?(line)
+    line.nil? || line == "" || line.eql?("\n")
+  end
+
+  def is_text_notation_line?(line)
+    !(is_plan_number_line?(line) || is_lot_or_section_line?(line) || is_polygon_id_line?(line) || is_polygon_type_line?(line) || is_linkages_detail_line?(line) || is_empty_line?(line))
+  end
+
+  def is_continued?(line)
+    line.end_with?(",")
+  end
+
+  def load_plan_number(plan_number)
     @parcels << { plan_number: plan_number}
   end
 
-  def add_lot_section_number(line)
-    #find the plan number first
-    @parcels.each do |parcel|
-
-    end
-
-    end
-
-  def parcel_parser(lines)
-    lines.each do |line|
-      if is_parcel_header?(line)
-        plan_number = line
-        #find or add parcel plan number
-        find_or_add_parcel_plan_number(plan_number)
+  #store the value(lot or and section number) to the @parcels, if the last record already has the key,
+  # #then create an new hash with plan number and insert into the @parcels
+  def add_lot_number(lot_lines)
+    unless lot_lines.nil? || lot_lines.empty? || @parcels.empty?
+      hash_parcel = {}
+      lines = lot_lines.split("Lot(s):")[1].split("Section :")
+      if lines.length > 1
+        section_lines = lines[1].split(",").map(&:strip)
+        hash_parcel.merge!({ section_ids: section_lines })
       end
-      if is_parcel_lot_or_section_number?(line)
+      hash_parcel.merge!({ lot_ids: lines[0].split(",").map(&:strip) })
 
+      parcel = @parcels[-1]
+      if parcel[:lot_ids]
+        hash_parcel.merge!({ plan_number: @parcels[-1][:plan_number] })
+        @parcels << hash_parcel
+      else
+        @parcels[-1].merge!(hash_parcel)
       end
+    end
+  end
+
+  #there would be multiple lot lines, will check the the next line if it's also lot line(the current line ends with comma)
+  def load_lots(current_line, lines, start_index)
+    lot_lines = current_line
+    while is_continued?(lot_lines) do #check the next time is still lot line
+      lot_lines += lines[start_index += 1].strip
+    end
+    add_lot_number(lot_lines)
+    start_index
+  end
+
+  def load_polygon_type(type)
+    @polygons << { polygon_type: type}
+  end
+
+  #similar way as lot number
+  def add_polygon_id(ids)
+    unless ids.nil? || ids.empty? || @polygons.empty?
+      hash_polygon = {}
+      lines = ids.split("Polygon Id(s):")[1]
+      hash_polygon.merge!({ polygon_ids: lines.split(",").map(&:strip) })
+
+      polygon = @polygons[-1]
+      if polygon[:polygon_ids]
+        hash_polygon.merge!({ polygon_type: @polygons[-1][:polygon_type] })
+        @polygons << hash_polygon
+      else
+        @polygons[-1].merge!(hash_polygon)
+      end
+    end
+  end
+
+  #similar way as lot number
+  def load_polygon_ids(current_line, lines, start_index)
+    polygon_id_lines = current_line
+    while is_continued?(polygon_id_lines) do #check the next time is still polygon id line
+      polygon_id_lines += lines[start_index += 1].strip
+    end
+    add_polygon_id(polygon_id_lines)
+    start_index
   end
 
 
-  # Read each line
-  def parse_line(line)
-    @header_lines << line and return if is_header?(line)
-    if is_parcel?(line)
-      load_parcel(line)
-
-        end
-      when 'PLAN'
-        return mode = get_current_plan(line, mode)
-      when 'LOT'
-        return mode = get_lots_for_current_plan(line, mode)
-      when 'LINKAGE'
-        # might be another lot based on the plan
-        if lot_line?(line)
-          mode = 'LOT'
-          return mode = get_lots_for_current_plan(line, mode)
-        elsif current_plan_line?(line) # must see if line is now a plan or end of plan section
-          return mode = get_current_plan(line, mode)
-        else
-          return mode = get_linkage_detail_line(line, mode)
-        end
-      when 'FOOTER'
-        sline = line.strip
-        @footer_lines << line unless sline.eql?('\n')
-        return mode
+  def load_linkages(line, lines, start_index, is_polygon = false)
+    index = start_index
+    while line && is_linkages_detail_line?(line) do
+      linkage_index = find_or_create_linkage(line)
+      is_polygon ? create_connection_between_linkage_with_polygon(linkage_index) : create_connection_between_linkage_with_parcel(linkage_index)
+      line = lines[index += 1].strip
     end
-    return mode
+    index > start_index ? (index - 1) : start_index
   end
+
+  def find_or_create_linkage(linkage_line)
+    linked_plan, status, surv_comp, *purpose = linkage_line.split(' ')
+    @linkages.each_with_index do |linkage, index|
+      if linkage[:linked_plan_number] == linked_plan
+        return index
+      end
+    end
+    #not found in the exisiting linkages, create new linkage and add indexes
+    @linkages << {linked_plan_number: linked_plan, status: status, surv_comp: surv_comp, purpose: purpose.join(" ") }
+    return @linkages.length - 1
+
+  end
+
+    #add indexes to each other(linkage and parcel)
+  def create_connection_between_linkage_with_parcel(linkage_index)
+    return if @parcels.empty? || @linkages.empty?
+
+    #add indexes to parcels
+    linkage_indexes = @parcels[-1][:linkage_indexes] ||= []
+    linkage_indexes << linkage_index
+
+    #add indexes to linkages
+    parcel_indexes = @linkages[linkage_index][:parcel_indexes] ||= []
+    parcel_indexes << @parcels.length-1
+
+  end
+
+
+  #similar way as parcel
+  def create_connection_between_linkage_with_polygon(linkage_index)
+    return if @polygons.empty? || @linkages.empty?
+
+    #add indexes to parcels
+    linkage_indexes = @polygons[-1][:linkage_indexes] ||= []
+    linkage_indexes << linkage_index
+
+    #add indexes to linkages
+    polygon_indexes = @linkages[linkage_index][:polygon_indexes] ||= []
+    polygon_indexes << @polygons.length-1
+
+  end
+
+  def load_text_notations(line, lines, start_index, is_polygon = false)
+    texts = []
+    while line && is_text_notation_line?(line) do
+      texts << line
+      line = lines[start_index += 1].strip
+    end
+
+    return start_index if texts.empty?
+
+    #handle special case: the line ends with 'IN'
+    texts << line && start_index += 1 if texts[-1].end_with?('IN')
+
+    text_notation_index = find_or_create_text_notation(texts.join("\n"))
+    is_polygon ? create_connection_between_text_notation_with_polygon(text_notation_index) : create_connection_between_text_notation_with_parcel(text_notation_index)
+    return start_index - 1
+
+  end
+
+  #add find or create text notation in @text_notations
+  def find_or_create_text_notation(text)
+    @text_notations.each_with_index do |notation, index|
+      if notation[:text] == text
+        return index
+      end
+    end
+    #not found, create an new record
+    @text_notations << {text: text}
+    return @text_notations.length - 1
+  end
+
+  #insert indexes to each other(text_notations and parcels)
+  def create_connection_between_text_notation_with_parcel(text_notation_index)
+    return if @parcels.empty? || @text_notations.empty?
+
+    #add indexes to parcels
+    text_notation_indexes = @parcels[-1][:text_notation_indexes] ||= []
+    text_notation_indexes << text_notation_index
+
+    #add indexes to linkages
+    parcel_indexes = @text_notations[text_notation_index][:parcel_indexes] ||= []
+    parcel_indexes << @parcels.length-1
+  end
+
+  #similar way as parcel(add_text_notation_to_parcel)
+  def create_connection_between_text_notation_with_polygon(text_notation_index)
+    return if @polygons.empty? || @text_notations.empty?
+
+    #add indexes to parcels
+    text_notation_indexes = @polygons[-1][:text_notation_indexes] ||= []
+    text_notation_indexes << text_notation_index
+
+    #add indexes to linkages
+    polygon_indexes = @text_notations[text_notation_index][:polygon_indexes] ||= []
+    polygon_indexes << @polygons.length-1
+  end
+
+
+
 end

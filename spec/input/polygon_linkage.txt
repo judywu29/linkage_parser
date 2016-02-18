@@ -1,0 +1,33 @@
+                                             Cadastral Records Enquiry Report                          Ref : Woolworths Limited
+                                   Requested Parcel : Lot 24 DP 1185832           Identified Parcel : Lot 24 DP 1185832
+Locality : GLOUCESTER              LGA : GLOUCESTER                  Parish : GLOUCESTER        County : GLOUCESTER
+                                   Status                       Surv/Comp                Purpose
+
+
+
+SP74977
+            DP198078             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP881322             REGISTERED            SURVEY                            CONSOLIDATION
+            DP995444             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            OFFICIAL SEARCH 36008 - LOT 5 DP881322
+Road
+Polygon Id(s): 165391984
+DP37028                                    SURVEY                           UNRESEARCHED
+DP95499                                    SURVEY                           UNRESEARCHED
+DP112338                                   COMPILATION                      DEPARTMENTAL
+DP116279                                   COMPILATION                      DEPARTMENTAL
+DP116282                                   COMPILATION                      DEPARTMENTAL
+DP136244                                   COMPILATION                      DEPARTMENTAL
+DP136889                                   COMPILATION                      LIMITED FOLIO CREATION
+DP155610                                   COMPILATION                      UNRESEARCHED
+DP157164                                   SURVEY                           UNRESEARCHED
+DP158296                                   SURVEY                           UNRESEARCHED
+
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 2:11:02 PM, 22 April, 2015                                                                          Page 2 of 3
+Copyright © Land and Property Information ABN: 84 104 377 806
+

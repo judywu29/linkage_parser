@@ -1,0 +1,52 @@
+                                             Cadastral Records Enquiry Report                       Ref : King & Wood Mallesons
+                                   Requested Parcel : Lot 111 DP 623428             Identified Parcel : Lot 111 DP 623428
+Locality : MOUNT DRUITT            LGA : BLACKTOWN                   Parish : ROOTY HILL            County : CUMBERLAND
+                                   Status                       Surv/Comp                    Purpose
+
+DP1128
+Lot(s): 28, 30 Section : 2
+            DP649671             REGISTERED                     SURVEY                       EASEMENT
+DP28045
+Lot(s): 11, 12
+            DP649671             REGISTERED                     SURVEY                       EASEMENT
+DP412362
+Lot(s): Y
+            PLAN IS FOR MINERALS ONLY
+            DP1085954            REGISTERED                     COMPILATION                    DEPARTMENTAL
+               NSW GAZ                      06-05-2005                                     Folio : 1654
+            ACQUIRED FOR COUNCIL PURPOSES
+            LOT Y DP412362
+DP878161
+Lot(s): 1
+            SP61209              REGISTERED                     COMPILATION                  STRATA PLAN
+DP1036967
+Lot(s): 21, 22
+            DP552102             HISTORICAL                     SURVEY                       SUBDIVISION
+DP1170294
+Lot(s): 1
+            DP1128               HISTORICAL                     COMPILATION                  UNRESEARCHED
+DP1187462
+Lot(s): 12
+            CA168212 - LOT 12 DP1187462
+SP61209
+            DP878161             HISTORICAL                     SURVEY                       SUBDIVISION
+SP74754
+            DP25136              HISTORICAL                     SURVEY                       UNRESEARCHED
+            DP370914             HISTORICAL                     COMPILATION                  UNRESEARCHED
+            DP1080944            REGISTERED                     SURVEY                       CONSOLIDATION
+            DP1080946            REGISTERED                     SURVEY                       SUBDIVISION
+SP75768
+            DP1128               HISTORICAL                     COMPILATION                  UNRESEARCHED
+            DP1074486            REGISTERED                     SURVEY                       CONSOLIDATION
+SP82654
+            DP21892              HISTORICAL                     SURVEY                       UNRESEARCHED
+            DP1010124            REGISTERED                     SURVEY                       SUBDIVISION
+            DP1138977            REGISTERED                     SURVEY                       CONSOLIDATION
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 2:11:02 PM, 22 April, 2015                                                                          Page 2 of 3
+Copyright © Land and Property Information ABN: 84 104 377 806
+

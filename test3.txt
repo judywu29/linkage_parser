@@ -1,0 +1,66 @@
+                                             Cadastral Records Enquiry Report                                  Ref : Urbispro Pty Ltd
+                                   Requested Parcel : Lot 6003 DP 1195858             Identified Parcel : Lot 6003 DP 1195858
+Locality : VINCENTIA               LGA : SHOALHAVEN                  Parish : BHERWERRE               County : ST VINCENT
+                                   Status                       Surv/Comp                      Purpose
+
+DP877477
+Lot(s): 792
+           DP874040                 HISTORICAL                  SURVEY                           RESUMPTION OR ACQUISITION
+           DP1022286                REGISTERED                  SURVEY                           SUBDIVISION
+DP1018535
+Lot(s): 41
+           DP858484                 HISTORICAL                  SURVEY                           SUBDIVISION
+DP1039691
+Lot(s): 1
+           DP842404                 HISTORICAL                  SURVEY                           SUBDIVISION
+DP1120372
+Lot(s): 2
+               NSW GAZ.                           31-07-2009                                 Folio : 4722
+           RESERVED AS PT. JERVIS BAY NATIONAL PARK UNDER THE NATIONAL PARKS AND WILDLIFE ACT 1974. LOTS 1-2 IN
+           DP1120372
+DP1123782
+Lot(s): 175
+           DP1154415                REGISTERED                  SURVEY                           SUBDIVISION
+Lot(s): 110, 111, 112, 118, 119, 120, 126, 127, 128, 129, 130, 151, 152, 153, 175
+           DP1118806                HISTORICAL                  SURVEY                           ROADS ACT, 1993
+Lot(s): 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126,
+127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153,
+154, 155, 156, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176
+           DP874040                 HISTORICAL                  SURVEY                           RESUMPTION OR ACQUISITION
+           DP1022286                REGISTERED                  SURVEY                           SUBDIVISION
+Lot(s): 109, 110, 111, 112, 118, 119, 120, 121, 126, 127, 128, 129, 130, 151, 152, 153, 175
+               NSW GAZ.                           24-04-2008                                 Folio : 2913
+           CLOSED ROAD
+           LOT 1-12 DP1118806
+DP1138189
+Lot(s): 180, 181, 182
+           DP874040                 HISTORICAL                  SURVEY                           RESUMPTION OR ACQUISITION
+           DP1022286                REGISTERED                  SURVEY                           SUBDIVISION
+           DP1123782                REGISTERED                  SURVEY                           SUBDIVISION
+DP1141762
+Lot(s): 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320
+           DP874040                 HISTORICAL                  SURVEY                           RESUMPTION OR ACQUISITION
+           DP1022286                REGISTERED                  SURVEY                           SUBDIVISION
+           DP1118806                HISTORICAL                  SURVEY                           ROADS ACT, 1993
+           DP1123782                REGISTERED                  SURVEY                           SUBDIVISION
+           DP1138189                REGISTERED                  SURVEY                           SUBDIVISION
+Lot(s): 320
+               NSW GAZ.                           24-04-2008                                 Folio : 2913
+           CLOSED ROAD
+           LOT 1-12 DP1118806
+DP1141763
+Lot(s): 223, 225, 226, 227, 228, 229, 230, 231
+           DP874040                 HISTORICAL                  SURVEY                           RESUMPTION OR ACQUISITION
+           DP1022286                REGISTERED                  SURVEY                           SUBDIVISION
+           DP1118806                HISTORICAL                  SURVEY                           ROADS ACT, 1993
+           DP1123782                REGISTERED                  SURVEY                           SUBDIVISION
+           DP1138189                REGISTERED                  SURVEY                           SUBDIVISION
+           DP1141762                REGISTERED                  SURVEY                           SUBDIVISION
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 2:27:23 PM, 15 February, 2016                                                                                Page 2 of 5
+Copyright © Land and Property Information ABN: 84 104 377 806
+

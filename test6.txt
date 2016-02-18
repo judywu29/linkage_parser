@@ -1,0 +1,121 @@
+                                             Cadastral Records Enquiry Report                          Ref : Woolworths Limited
+                                   Requested Parcel : Lot 24 DP 1185832           Identified Parcel : Lot 24 DP 1185832
+Locality : GLOUCESTER              LGA : GLOUCESTER                  Parish : GLOUCESTER        County : GLOUCESTER
+                                   Status                       Surv/Comp                Purpose
+
+DP116279
+Lot(s): A
+            CA94135 - LOT A DP116279
+DP192505
+Lot(s): 1, 2 Section : G
+            CA111104 - CREATED IN ERROR - SEE CA134235
+            CA134235 - LOTS 1-2 SECTION G IN DP192505
+DP779402
+Lot(s): 1, 2
+            DP1145846            REGISTERED            SURVEY                            SUBDIVISION
+DP1086597
+Lot(s): 108
+            CA95340 - LOT 108 DP1086597
+DP1087349
+Lot(s): 1
+            CA95900 - LOT 1 DP1087349
+DP1105149
+Lot(s): 5
+            CA102422 - LOT 5 DP1105149
+DP1105907
+Lot(s): 4
+            DP1201282            REGISTERED            SURVEY                            EASEMENT
+            CA102168 - LOT 4 DP1105907
+DP1110421
+Lot(s): 3
+            CA104529 - LOT 3 DP1110421
+DP1145846
+Lot(s): 81
+            DP1128877            HISTORICAL            COMPILATION                       LIMITED FOLIO CREATION
+            CA110879 - LOTS 81-84 DP1128877
+DP1167574
+Lot(s): 122
+            DP999019             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP1074802            REGISTERED            SURVEY                            SUBDIVISION
+DP1185832
+Lot(s): 23, 24
+            DP37029              HISTORICAL            SURVEY                            UNRESEARCHED
+            DP708955             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP779143             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP1167574            REGISTERED            SURVEY                            SUBDIVISION
+            DP1203732            REGISTERED            SURVEY                            EASEMENT
+            CA102447 - LOT 10 DP37029
+Lot(s): 23
+            DP714702             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP999019             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP1074802            REGISTERED            SURVEY                            SUBDIVISION
+DP1187565
+Lot(s): 1
+            PA83153 - LOT 1 DP1187565
+SP74977
+            DP198078             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP881322             REGISTERED            SURVEY                            CONSOLIDATION
+            DP995444             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            OFFICIAL SEARCH 36008 - LOT 5 DP881322
+Road
+Polygon Id(s): 165391984
+DP37028                                    SURVEY                           UNRESEARCHED
+DP95499                                    SURVEY                           UNRESEARCHED
+DP112338                                   COMPILATION                      DEPARTMENTAL
+DP116279                                   COMPILATION                      DEPARTMENTAL
+DP116282                                   COMPILATION                      DEPARTMENTAL
+DP136244                                   COMPILATION                      DEPARTMENTAL
+DP136889                                   COMPILATION                      LIMITED FOLIO CREATION
+DP155610                                   COMPILATION                      UNRESEARCHED
+DP157164                                   SURVEY                           UNRESEARCHED
+DP158296                                   SURVEY                           UNRESEARCHED
+DP192505                                   COMPILATION                      UNRESEARCHED
+DP195201                                   COMPILATION                      DEPARTMENTAL
+DP197541                                   COMPILATION                      DEPARTMENTAL
+DP517814                                   SURVEY                           SUBDIVISION
+DP541940                                   SURVEY                           SUBDIVISION
+DP544827                                   SURVEY                           SUBDIVISION
+DP547282                                   SURVEY                           SUBDIVISION
+DP547645                                   SURVEY                           SUBDIVISION
+DP708843                                   COMPILATION                      DEPARTMENTAL
+DP712346                                   COMPILATION                      DEPARTMENTAL
+DP712458                                   COMPILATION                      DEPARTMENTAL
+DP730560                                   COMPILATION                      DEPARTMENTAL
+DP738961                                   COMPILATION                      DEPARTMENTAL
+DP741246                                   COMPILATION                      DEPARTMENTAL
+DP741732                                   COMPILATION                      DEPARTMENTAL
+DP741770                                   COMPILATION                      DEPARTMENTAL
+DP741876                                   COMPILATION                      DEPARTMENTAL
+DP743376                                   COMPILATION                      DEPARTMENTAL
+DP744974                                   COMPILATION                      DEPARTMENTAL
+DP745846                                   COMPILATION                      DEPARTMENTAL
+DP779402                                   COMPILATION                      DEPARTMENTAL
+DP782638                                   COMPILATION                      DEPARTMENTAL
+DP782791                                   COMPILATION                      DEPARTMENTAL
+DP797589                                   COMPILATION                      DEPARTMENTAL
+DP808374                                   COMPILATION                      CONSOLIDATION
+DP847084                                   SURVEY                           SUBDIVISION
+DP977350                                   COMPILATION                      UNRESEARCHED
+DP996531                                   COMPILATION                      DEPARTMENTAL
+DP1014584                                  COMPILATION                      LIMITED FOLIO CREATION
+DP1086597                                  COMPILATION                      LIMITED FOLIO CREATION
+DP1087349                                  COMPILATION                      LIMITED FOLIO CREATION
+DP1105149                                  COMPILATION                      LIMITED FOLIO CREATION
+DP1105907                                  COMPILATION                      LIMITED FOLIO CREATION
+DP1110421                                  COMPILATION                      LIMITED FOLIO CREATION
+DP1145846                                  SURVEY                           SUBDIVISION
+DP1167574                                  SURVEY                           SUBDIVISION
+DP1167574                                  UNRESEARCHED                     SUBDIVISION
+DP1185832                                  SURVEY                           SUBDIVISION
+DP1185832                                  UNRESEARCHED                     SUBDIVISION
+DP1187565                                  UNRESEARCHED                     RESUMPTION OR ACQUISITION
+DP1187565                                  SURVEY                           OLD SYSTEM CONVERSION
+SP74977                                    COMPILATION                      STRATA PLAN
+
+
+
+
+blah
+Report Generated 1:52:46 PM, 30 April, 2015                                                                      Page 3 of 3
+Copyright © Land and Property Information ABN: 84 104 377 806
+

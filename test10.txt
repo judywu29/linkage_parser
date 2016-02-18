@@ -1,0 +1,185 @@
+                                             Cadastral Records Enquiry Report                          Ref : Woolworths Limited
+                                   Requested Parcel : Lot B2 DP 379890            Identified Parcel : Lot B2 DP 379890
+Locality : FIVE DOCK               LGA : CANADA BAY                  Parish : CONCORD           County : CUMBERLAND
+                                   Status                       Surv/Comp                Purpose
+
+DP6513
+Lot(s): 4, 5
+            DP1096960            REGISTERED                     SURVEY                   EASEMENT
+DP1000063
+Lot(s): 1
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+DP1011171
+Lot(s): 101, 102
+            DP114883             HISTORICAL                     COMPILATION              DEPARTMENTAL
+DP1062325
+Lot(s): 1, 4
+            DP656129             HISTORICAL                     COMPILATION              DEPARTMENTAL
+            DP811036             HISTORICAL                     COMPILATION              SUBDIVISION
+            DP826770             HISTORICAL                     COMPILATION              CONSOLIDATION
+            DP1061320            REGISTERED                     SURVEY                   EASEMENT
+            SP72939              REGISTERED                     COMPILATION              PART STRATA
+DP1062789
+Lot(s): 100
+            DP220545             HISTORICAL                     SURVEY                   SUBDIVISION
+DP1090805
+Lot(s): 10
+            CA97650 - LOT 10 DP1090805
+SP60531
+            DP324298             HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP337316             HISTORICAL                     COMPILATION              UNRESEARCHED
+            DP1003096            REGISTERED                     SURVEY                   CONSOLIDATION
+SP62213
+            DP6513               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1009546            REGISTERED                     SURVEY                   CONSOLIDATION
+SP65944
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP324298             HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1031133            REGISTERED                     SURVEY                   CONSOLIDATION
+SP73187
+            DP6513               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1071070            REGISTERED                     SURVEY                   REDEFINITION
+SP75573
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1087380            REGISTERED                     SURVEY                   CONSOLIDATION
+SP86439
+            DP7401               HISTORICAL                     SURVEY                   UNRESEARCHED
+            DP1000063            REGISTERED                     SURVEY                   SUBDIVISION
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 5:50:07 PM, 14 April, 2015                                                                          Page 2 of 4
+Copyright © Land and Property Information ABN: 84 104 377 806
+                                             Cadastral Records Enquiry Report                      Ref : Woolworths Limited
+                                   Requested Parcel : Lot B2 DP 379890        Identified Parcel : Lot B2 DP 379890
+Locality : FIVE DOCK               LGA : CANADA BAY             Parish : CONCORD            County : CUMBERLAND
+Plan                                      Surv/Comp                          Purpose
+
+DP884                                      COMPILATION                      UNRESEARCHED
+DP4353                                     COMPILATION                      UNRESEARCHED
+DP5738                                     SURVEY                           UNRESEARCHED
+DP5839                                     SURVEY                           UNRESEARCHED
+DP6513                                     SURVEY                           UNRESEARCHED
+DP7401                                     SURVEY                           UNRESEARCHED
+DP9616                                     SURVEY                           UNRESEARCHED
+DP16681                                    SURVEY                           UNRESEARCHED
+DP17959                                    SURVEY                           UNRESEARCHED
+DP19383                                    SURVEY                           UNRESEARCHED
+DP21487                                    SURVEY                           UNRESEARCHED
+DP33520                                    SURVEY                           UNRESEARCHED
+DP88367                                    SURVEY                           UNRESEARCHED
+DP103287                                   COMPILATION                      UNRESEARCHED
+DP110439                                   SURVEY                           UNRESEARCHED
+DP115446                                   COMPILATION                      DEPARTMENTAL
+DP115454                                   COMPILATION                      DEPARTMENTAL
+DP125908                                   COMPILATION                      DEPARTMENTAL
+DP151938                                   COMPILATION                      UNRESEARCHED
+DP151979                                   COMPILATION                      UNRESEARCHED
+DP159084                                   SURVEY                           UNRESEARCHED
+DP165667                                   COMPILATION                      UNRESEARCHED
+DP174157                                   SURVEY                           UNRESEARCHED
+DP174245                                   COMPILATION                      UNRESEARCHED
+DP175116                                   COMPILATION                      UNRESEARCHED
+DP178013                                   SURVEY                           UNRESEARCHED
+DP184667                                   SURVEY                           UNRESEARCHED
+DP185651                                   SURVEY                           UNRESEARCHED
+DP206051                                   COMPILATION                      SUBDIVISION
+DP213847                                   SURVEY                           SUBDIVISION
+DP220545                                   SURVEY                           SUBDIVISION
+DP231406                                   SURVEY                           SUBDIVISION
+DP236750                                   SURVEY                           SUBDIVISION
+DP303180                                   SURVEY                           UNRESEARCHED
+DP305313                                   COMPILATION                      UNRESEARCHED
+DP306204                                   SURVEY                           UNRESEARCHED
+DP308081                                   COMPILATION                      UNRESEARCHED
+DP314855                                   COMPILATION                      UNRESEARCHED
+DP320559                                   COMPILATION                      UNRESEARCHED
+DP321696                                   COMPILATION                      UNRESEARCHED
+DP322631                                   COMPILATION                      UNRESEARCHED
+DP322670                                   COMPILATION                      UNRESEARCHED
+DP324414                                   SURVEY                           UNRESEARCHED
+DP335917                                   SURVEY                           UNRESEARCHED
+DP336924                                   SURVEY                           UNRESEARCHED
+DP337316                                   COMPILATION                      UNRESEARCHED
+DP338480                                   SURVEY                           UNRESEARCHED
+DP341005                                   COMPILATION                      UNRESEARCHED
+DP347359                                   SURVEY                           UNRESEARCHED
+DP362875                                   SURVEY                           UNRESEARCHED
+DP373992                                   SURVEY                           UNRESEARCHED
+DP376136                                   SURVEY                           UNRESEARCHED
+DP379890                                   SURVEY                           UNRESEARCHED
+DP381858                                   SURVEY                           UNRESEARCHED
+DP382436                                   SURVEY                           UNRESEARCHED
+DP440871                                   SURVEY                           UNRESEARCHED
+DP442131                                   SURVEY                           UNRESEARCHED
+DP445676                                   SURVEY                           UNRESEARCHED
+DP456995                                   COMPILATION                      DEPARTMENTAL
+DP506682                                   SURVEY                           SUBDIVISION
+DP513185                                   SURVEY                           SUBDIVISION
+DP527911                                   SURVEY                           SUBDIVISION
+DP528465                                   COMPILATION                      SUBDIVISION
+DP537181                                   COMPILATION                      SUBDIVISION
+DP578238                                   SURVEY                           OLD SYSTEM CONVERSION
+DP584480                                   SURVEY                           SUBDIVISION
+DP654031                                   COMPILATION                      DEPARTMENTAL
+DP656133                                   COMPILATION                      DEPARTMENTAL
+DP656135                                   COMPILATION                      DEPARTMENTAL
+
+blah
+Report Generated 5:50:07 PM, 14 April, 2015                                                                      Page 3 of 4
+Copyright © Land and Property Information ABN: 84 104 377 806
+                                             Cadastral Records Enquiry Report                      Ref : Woolworths Limited
+                                   Requested Parcel : Lot B2 DP 379890        Identified Parcel : Lot B2 DP 379890
+Locality : FIVE DOCK               LGA : CANADA BAY             Parish : CONCORD            County : CUMBERLAND
+Plan                                      Surv/Comp                          Purpose
+
+DP659360                                   COMPILATION                      DEPARTMENTAL
+DP663412                                   COMPILATION                      DEPARTMENTAL
+DP668565                                   COMPILATION                      DEPARTMENTAL
+DP669327                                   COMPILATION                      DEPARTMENTAL
+DP703917                                   SURVEY                           CONSOLIDATION
+DP747371                                   SURVEY                           CONSOLIDATION
+DP788606                                   SURVEY                           SUBDIVISION
+DP799459                                   COMPILATION                      DEPARTMENTAL
+DP811036                                   COMPILATION                      SUBDIVISION
+DP912914                                   COMPILATION                      UNRESEARCHED
+DP935277                                   COMPILATION                      UNRESEARCHED
+DP943090                                   SURVEY                           UNRESEARCHED
+DP943973                                   SURVEY                           UNRESEARCHED
+DP947616                                   SURVEY                           UNRESEARCHED
+DP948491                                   SURVEY                           UNRESEARCHED
+DP948611                                   SURVEY                           UNRESEARCHED
+DP949320                                   COMPILATION                      UNRESEARCHED
+DP949785                                   COMPILATION                      UNRESEARCHED
+DP980420                                   COMPILATION                      UNRESEARCHED
+DP1000063                                  SURVEY                           SUBDIVISION
+DP1011171                                  SURVEY                           SUBDIVISION
+DP1062325                                  SURVEY                           SUBDIVISION
+DP1062789                                  SURVEY                           CONSOLIDATION
+DP1077558                                  COMPILATION                      DEPARTMENTAL
+DP1090805                                  COMPILATION                      LIMITED FOLIO CREATION
+SP4608                                     COMPILATION                      STRATA PLAN
+SP5792                                     COMPILATION                      STRATA PLAN
+SP6752                                     COMPILATION                      STRATA PLAN
+SP9400                                     COMPILATION                      STRATA PLAN
+SP20613                                    COMPILATION                      STRATA PLAN
+SP37062                                    COMPILATION                      STRATA PLAN
+SP52453                                    COMPILATION                      STRATA PLAN
+SP58468                                    COMPILATION                      STRATA PLAN
+SP60531                                    COMPILATION                      STRATA PLAN
+SP62213                                    COMPILATION                      STRATA PLAN
+SP65944                                    COMPILATION                      STRATA PLAN
+SP73187                                    COMPILATION                      STRATA PLAN
+SP75573                                    COMPILATION                      STRATA PLAN
+SP86439                                    COMPILATION                      STRATA PLAN
+SP86439                                    UNRESEARCHED                     STRATA PLAN
+
+
+
+
+blah
+Report Generated 5:50:07 PM, 14 April, 2015                                                                      Page 4 of 4
+Copyright © Land and Property Information ABN: 84 104 377 806
+

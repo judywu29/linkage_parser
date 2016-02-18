@@ -1,0 +1,57 @@
+                                             Cadastral Records Enquiry Report                          Ref : Woolworths Limited
+                                   Requested Parcel : Lot 24 DP 1185832           Identified Parcel : Lot 24 DP 1185832
+Locality : GLOUCESTER              LGA : GLOUCESTER                  Parish : GLOUCESTER        County : GLOUCESTER
+                                   Status                       Surv/Comp                Purpose
+
+DP116279
+Lot(s): A
+            CA94135 - LOT A DP116279
+DP192505
+Lot(s): 1, 2 Section : G
+            CA111104 - CREATED IN ERROR - SEE CA134235
+            CA134235 - LOTS 1-2 SECTION G IN DP192505
+DP779402
+Lot(s): 1, 2
+            DP1145846            REGISTERED            SURVEY                            SUBDIVISION
+DP1086597
+Lot(s): 108
+            CA95340 - LOT 108 DP1086597
+
+DP1187565
+Lot(s): 1
+            PA83153 - LOT 1 DP1187565
+SP74977
+            DP198078             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            DP881322             REGISTERED            SURVEY                            CONSOLIDATION
+            DP995444             HISTORICAL            COMPILATION                       DEPARTMENTAL
+            OFFICIAL SEARCH 36008 - LOT 5 DP881322
+Road
+Polygon Id(s): 165391984
+            CA110879 - LOTS 81-84 DP1128877
+
+
+
+
+Caution:      For all ACTIVITY PRIOR to SEPT 2002 you must refer to the RGs Charting and Reference Maps.
+Report Generated 1:52:46 PM, 30 April, 2015                                                                          Page 2 of 3
+Copyright © Land and Property Information ABN: 84 104 377 806
+                                             Cadastral Records Enquiry Report                      Ref : Woolworths Limited
+                                   Requested Parcel : Lot 24 DP 1185832       Identified Parcel : Lot 24 DP 1185832
+Locality : GLOUCESTER              LGA : GLOUCESTER             Parish : GLOUCESTER         County : GLOUCESTER
+Plan                                      Surv/Comp                          Purpose
+
+DP37028                                    SURVEY                           UNRESEARCHED
+DP95499                                    SURVEY                           UNRESEARCHED
+DP112338                                   COMPILATION                      DEPARTMENTAL
+DP116279                                   COMPILATION                      DEPARTMENTAL
+DP116282                                   COMPILATION                      DEPARTMENTAL
+
+
+
+
+
+
+blah
+Report Generated 1:52:46 PM, 30 April, 2015                                                                      Page 3 of 3
+Copyright © Land and Property Information ABN: 84 104 377 806
+
