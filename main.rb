@@ -1,5 +1,5 @@
 require_relative 'pdf_reading'
-require_relative 'tempfile'
+# require_relative 'tempfile'
 
 
 # PDFTKDUMP = '/usr/bin/pdftk'
@@ -11,7 +11,7 @@ require_relative 'tempfile'
 # `pdftotext -layout #{tmp_file.path}`
 
 
-linkageparser = LinkageParser.new('test_tail_tk.txt')
+linkageparser = LinkageParser.new('input/test_tail_tk.txt')
 linkageparser.run
 
 puts "parcels: #{linkageparser.parcels}"
