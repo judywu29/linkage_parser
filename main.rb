@@ -7,11 +7,11 @@ require_relative 'tempfile'
 
 
 
-  # `pdftk dp_lot.pdf cat #{page_args} output #{tmp_file.path}`
-  # `pdftotext -layout #{tmp_file.path}`
+# `pdftk dp_lot.pdf cat #{page_args} output #{tmp_file.path}`
+# `pdftotext -layout #{tmp_file.path}`
 
 
-linkageparser = LinkageParser.new('2_page.txt')
+linkageparser = LinkageParser.new('test_tail_tk.txt')
 linkageparser.run
 
 puts "parcels: #{linkageparser.parcels}"

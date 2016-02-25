@@ -7,6 +7,8 @@ class LinkageParser
   POLYGON_TYPES = ['Road', 'Water','Unidentified', 'Intersection']
 
   def run
+
+    puts File.expand_path("../", __FILE__)
     lines = @file.readlines
 
     indexes = get_indexes_from_file(lines)
@@ -63,16 +65,17 @@ class LinkageParser
     start_indexes = []
     lines.each_with_index{|line, index| start_indexes << (index + 1) if line.include?("Surv/Comp") && line.include?("Purpose")}
 
-    caution_index = lines.index{|line| line.include?("Caution") }
+    caution_indexes = []
+    lines.each_with_index{|line, index| caution_indexes << index if line.include?("Caution") }
 
-    indexes = start_indexes << caution_index
+    indexes = start_indexes + caution_indexes
     lines.each_with_index{|line, index| indexes << index if line.include?("blah") }
 
 
-    indexes.keep_if{ |i| i && i > 0 }.sort! #remove the nil value and only keep the positive values, sort the array 
-    # puts indexes
+    indexes.keep_if{ |i| i && i > 0 }.sort! #remove the nil value and only keep the positive values, sort the array
+    puts indexes
 
-    if start_indexes.empty? || caution_index == -1 || indexes.size % 2 != 0
+    if start_indexes.empty? || caution_indexes.empty? || indexes.size % 2 != 0
       puts "it's not a standard txt, please check the file - #{@file.inspect}"
     end
     return indexes
@@ -234,6 +237,7 @@ class LinkageParser
 
   end
 
+  #get all of the text_notations, join them in one record. cannot tell each paragraph
   def load_text_notations(line, lines, start_index, is_polygon = false)
     texts = []
     while line && is_text_notation_line?(line) do
