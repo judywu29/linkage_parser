@@ -8,7 +8,7 @@ class LinkageParser
 
   def run
 
-    puts File.expand_path("../", __FILE__)
+    # puts File.expand_path("../", __FILE__)
     lines = @file.readlines
 
     indexes = get_indexes_from_file(lines)
@@ -73,7 +73,7 @@ class LinkageParser
 
 
     indexes.keep_if{ |i| i && i > 0 }.sort! #remove the nil value and only keep the positive values, sort the array
-    puts indexes
+    # puts indexes
 
     if start_indexes.empty? || caution_indexes.empty? || indexes.size % 2 != 0
       puts "it's not a standard txt, please check the file - #{@file.inspect}"
