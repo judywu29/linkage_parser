@@ -11,7 +11,7 @@ should install on pretty much any recent Linux or OSX operating system.
 
 This module/class can be just moved to the project to use and also it can be executed alone:
 
-####Running
+#####Running
 
 With valid commands from the input file:
 
@@ -64,4 +64,4 @@ Ruby 2.16
 
 ###Contact
 
-Judy Wu, judy.wu#urbispro.com.au
+Judy Wu, judy.wu@urbispro.com.au
